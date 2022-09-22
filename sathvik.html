@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!--My html code-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="photography" content="Taking beautiful pics using mobile">
+    <meta name="photography types" content="street,emotions,macro,product,landscape,architecture">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>pixobia</title>
+    <!-- this is how we link css to html -->
+    <link rel="stylesheet" href="sathvik.css">
+    <!-- this is how we can add java -->
+    <script src="sathvik.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /* margin: 20px; */
+            font-family: Arial;
+            margin: 0;
+        }
+
+
+
+        /* The expanding image container */
+        .container {
+            position: relative;
+            display: none;
+        }
+
+        /* Expanding image text */
+        #imgtext {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: white;
+            font-size: 20px;
+        }
+
+        /* Closable button inside the expanded image */
+        .closebtn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: white;
+            font-size: 35px;
+            cursor: pointer;
+        }
+
+        div.polaroid {
+            width: 30%;
+            height: 10%;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 25px;
+
+        }
+
+        div.container {
+            text-align: center;
+            padding: 10px 20px;
+        }
+
+        img {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 150px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-family: "acumin-pro", sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #161616;
+            font-size: 14px;
+            margin-bottom: 1.5em;
+            font-weight: 700;
+        }
+
+
+        h1 {
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body id="sathvik">
+    <h1 id="new">P&icirc;x&#8709;b&iexcl;&atilde;</h1>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact Us</a></li>
+                <div class="search"><input type="search" name="search" id="search" placeholder="search this website"></div>
+            </ul>
+        </nav>
+    </header>
+<br>
+    <div class="polaroidnew">
+        <img src="sathvik.jpg" alt="5 Terre" style="width:100%">
+        <div class=" container">
+            <p>Rockzz</p>
+        </div>
+        <div id="topright"></div>
+    </div>
+
+    </span new>
+    <hr><br>
+    <h4><em>Welcome</em> to the world of <strong>pixobia</strong>...</h4>
+
+    <hr>
+    <span>
+        <h2><strong>Linktr:
+                <a style="border: 2px solid black;" href="https://linktr.ee/pixobia" target="_blank">Pixobia</a>
+            </strong></h2>
+    </span>
+    <span>
+        <h2><strong>Instagaram Profile:
+                <a style="border: 2px solid rgb(0, 0, 0);" href="https://www.instagram.com/pixobia/"
+                    target="_blank">Pixobia</a><br>
+            </strong></h2>
+    </span>
+    <span>
+        <h2><strong>Unsplah Profile:
+                <a style="border: 2px solid black;" href="https://unsplash.com/@pixobia" target="_blank">Pixobia</a>
+            </strong></h2>
+    </span>
+    
+    <hr>
+    <br>
+
+    <!-- if image is not shown we use alt text -->
+    <!-- <img src="sathvik.jpg" alt="Error loading image"> -->
+
+    <strong style="border: 2px solid black; ; " id="strongnew">For any suggestions,like they need to be added in these
+        website please
+        mention
+        it...</strong><br><br>
+
+    <form action="sathvik.php" id="margin" class="say">
+        <div>
+
+            <label for="Name">Name:<input type="text" name="My name" id="Name"></label>
+        </div>
+        <br>
+        <div>
+            <label for="Date">Date: <input type="date" name="" id="Date"></label>
+
+        </div>
+        <br>
+        <div>
+            <label for="Role"> Role(or)passion: <input type="text" name="My role" id="Role"></label>
+
+        </div>
+        <br>
+        <div>
+            <label for="gender"> Gender: Male <input type="radio" name="mygender" id="gender"> Female <input
+                    type="radio" name="mygender" id="gender"> other <input type="radio" name="mygender"
+                    id="gender"></label>
+
+        </div>
+        <br>
+        <div>
+            <label for="age">Are you 18 years old? <input type="checkbox" name="MY eligibility" checked
+                    id="age"></label>
+        </div>
+        <br>
+        <label for="photography">Photography types intrested in:</label>
+        <select name="Photography Types" id="photography">
+            <option name="macro">macro</option>
+            <option value="emotions">emotions</option>
+            <option value="landscape">landscape</option>
+        </select><br>
+        <br>
+        <div>
+            <label for="Number">Number: <input type="number" name="My phone number" id="Number"></label>
+        </div>
+        <br>
+        <div>
+
+            <label for="mail">Email: <input type="email" name="My mail" id="mail"></label>
+        </div>
+        <br>
+        <div>
+            <label for="comment"> Comment: <textarea name="Mytext" cols="10" rows="1" id="comment"></textarea></label>
+        </div>
+        <br>
+        <div>
+            <span><input type="submit" value="Submit Now">
+                <input type="reset" value="Reset Now"></span>
+        </div>
+
+
+    </form>
+    <br>
+    <!-- Emmet -->
+    <!-- . is for class and # is for id -->
+    <span class="redBG"></span>
+    <span id="mainspain"></span>
+    <!-- Emmet  takes div tags as default  -->
+    <div class="redBG"></div>
+
+
+    <h3 id="thirdpara" style="font-size:150%;"><b>My Photography:</b></h3>
+    <hr>
+
+    <!-- polaroid -->
+
+    <!-- <div class="polaroid">
+        <img src="phocus/mazza.jpg" alt="5 Terre" style="width:100%">
+        <div class="container">
+            <p>Mazza</p>
+        </div>
+    </div>
+
+    <div class="polaroid">
+        <img src="phocus/20220603_180830.png" alt="Norther Lights" style="width:100%">
+        <div class="container">
+            <p>Flowers</p>
+        </div>
+    </div> -->
+    <br>
+    <br>
+    <div class="container" style="font-size:150%;"><b>Photo Gallery</b></div>
+    <br>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="phocus/1649360241227.jpg">
+                <img src="phocus/1649360241227.jpg" alt="Eroor loading" width="600" height="400">
+            </a>
+            <div class=" desc">"We, the humans are like this green grass.
+                When drenched with love like water is looking on it as glass.
+                We glitter in the sunshine in the days.
+                And even in the nights due to moonlight rays..."❤️❤️❤️
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="phocus/20220626_133426.png">
+                <img src="phocus/20220626_133426.png" alt="Eroor loading" width="600" height="400">
+            </a>
+            <div class=" desc">"Architecture is a virtual art and
+                The buldings speak for themselves…"
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="phocus/20220626_134147.png">
+                <img src="phocus/20220626_134147.png" alt="Eroor loading" width="600" height="400">
+            </a>
+            <div class=" desc">"When you photograph people in color,
+                You photograph their clothes.But when you
+                Photograph people in Black and White,you photograph their souuls…"
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="phocus/20220627_082727.png">
+                <img src="phocus/20220627_082727.png" alt="Eroor loading" width="600" height="400">
+            </a>
+            <div class=" desc">" Beauty perishes in life,but it
+                Is immortal in art…
+                "
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div style="padding:6px;">
+
+        <br>
+        <!-- <img src="sathvik.jpg" alt="Paris" style="width:150px"> -->
+
+
+
+        <h2 style="text-align:center">My captures</h2>
+        <a href="" class="btn">My captures</a>
+        <button class="btn">.</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="row">
+                <div class="sixteen columns">
+                    © Pixobia
+                    <br>
+
+                </div>
+            </div>
+        </footer>
+    </div> <!-- close .container -->
+</body>
+
+</html>
