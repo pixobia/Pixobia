@@ -1,18 +1,16 @@
-### Hi there 👋
-I had Dream that when i ever i search my own page name in google,google needs to give the the first output is my page.
-so i am trying to create my own full responsive page..
+<h1 align="center">Hi 👋, I'm Sathvik</h1>
+<h3 align="center">A passionate frontend developer from NIT Jamshedpur</h3>
 
-<!--
-**pixobia/Pixobia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img  margin-bottom="14px" align="right" src="https://media0.giphy.com/media/uB86ZyWQsnFSGYe2sA/giphy.gif?cid=ecf05e47cdnzrp3zsci1zii1pr4kf86rhgkrdf8mfvujjwpr&rid=giphy.gif&ct=g" alt="">
 
-Here are some ideas to get you started:
+- 🔭 I’m currently working on **Frontend development**
 
-- 🔭 I’m currently working on webdevelopment ...
-- 🌱 I’m currently learning react ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🌱 I’m currently learning **backend development**
+
+- 👯 I’m looking to collaborate for **Hackthons**
+
+- 💬 Ask me about **HtML,CSS,JAvascript,React.js,react native.**
+
+- 📫 How to reach me **khajjayamsathvik@gmail.com**
+
+<h3 align="left">Connect with me:</h3>
