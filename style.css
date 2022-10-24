@@ -8,8 +8,6 @@ body {
     line-height: 1.5;
     font-weight: normal;
     background: #ffffff;
-    /* color: #7a7a7a; */
-    margin: 40px 0px 0px 0px;
     text-align: center;
     -webkit-font-smoothing: subpixel-antialiased;
     -webkit-text-size-adjust: 100%;
@@ -158,12 +156,11 @@ div.desc {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 20px;
-    padding: 10px;
+    padding-top: 10px;
     margin-left: 1200px;
-    margin-top: -20px;
-
-
+    margin-top: 20px;
 }
+
 
 footer {
     font-size: 11px;
@@ -177,7 +174,6 @@ div {
 /* headear */
 .navbar {
     background-color: black;
-    border-radius: 30px;
 
 }
 
@@ -185,25 +181,58 @@ div {
     overflow: auto;
 }
 
-.navbar li {
-    float: left;
-    list-style: none;
-    margin: 13px 20px;
-    padding-top: 1px;
-
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 10vh;
+    justify-content: space-between;
 }
-
-.navbar li a {
-    padding: 3px 3px;
+#new {
     text-decoration: none;
     color: white;
+    padding-left: 25px;
+
+}
+.right-navbar{
+    padding-right: 20px;
+    list-style-type: none;
+}
+.right-navbar > ul > li {
+    text-decoration: none;
+    padding-left: 15px;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 10px;
+    margin: 2px;
+}
+.right-navbar > ul > li:hover {
+    border-radius: 10px;
+    background-color: rgb(38, 5, 68);
+    transition: 100ms;
+}
+.right-navbar > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
 }
 
-.search {
+
+search {
     float: right;
     color: white;
     padding: 12px 75px;
     border-radius: 4px solid white;
+} 
+#search{
+    border-radius: 10px;
+    padding: 10px;
+    width: 40vw;
+    height: 45px;
+    margin-top: 12px;
 }
 
 .navabarinput {
