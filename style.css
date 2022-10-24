@@ -9,7 +9,7 @@ body {
     font-weight: normal;
     background: #ffffff;
     /* color: #7a7a7a; */
-    margin: 40px 0;
+    margin: 40px 0px 0px 0px;
     text-align: center;
     -webkit-font-smoothing: subpixel-antialiased;
     -webkit-text-size-adjust: 100%;
@@ -167,7 +167,6 @@ div.desc {
 
 footer {
     font-size: 11px;
-    margin-bottom: 50px;
 }
 
 div {
@@ -225,4 +224,44 @@ a[target]{
     margin: auto;
     width: 50px;
     text-align: center;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(14, 46, 137, 0.778);
+    height: 35vh;
+}
+.left-section ul,
+.right-section ul
+{
+    list-style-type: none;
+}
+.left-section ul li ,
+.right-section ul li {  
+    color: white;
+    padding-top: 15px;
+    font-size: 13px;
+    text-align: left;
+}
+.left-section h3,
+.right-section h3{
+    padding-top: 22px;
+    color: white;
+    font-weight:bold;
+}
+.left-section ul  a,
+.right-section ul a{
+    text-decoration: none;
+}
+.right-section{
+    padding-right: 130px;
+}
+.left-section {
+    padding-left: 100px;
+}
+.middle-section > p{
+    padding-top: 100px;
+    color: white;
+    font-size: 20px;
 }
