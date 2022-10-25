@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 #sathvik{
     flex-wrap: wrap;
 }
@@ -71,7 +72,14 @@ h4 {
 
 #thirdpara {
     background-image: url('https://photos.app.goo.gl/zRNym4oHZ2wMVWtB7');
+    border-top: 1px solid grey;
+    padding-top: 15vh;
+    margin-top: 5vh;
+    font-family:  'Roboto', sans-serif;
+}   
 
+#thirdpara b{
+    font-size: 50px;
 }
 
 
@@ -97,12 +105,16 @@ h4 {
 
 /* gallery */
 div.gallery {
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px;
     box-sizing: border-box;
+    transition: all 0.2s;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    /* border: 1px solid #777; */
+    scale: 1.02;
 }
 
 div.gallery img {
