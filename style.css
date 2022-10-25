@@ -294,3 +294,21 @@ a[target]{
     color: white;
     font-size: 20px;
 }
+
+.neon-button{
+    font-family: Acme,Finlandica,Merriweather,sans-serif;
+position:static;
+left: 1000px;
+top: -3em;
+padding-left:2em;
+padding-right: 2em;
+  color: var(--clr-neon);
+  display:inline-block;
+  cursor: pointer;
+  text-decoration: none;
+color: #000000;
+border:#2a2c2b 0.125em solid;
+border-radius:0.25em 1em;
+padding: 0.25em 1em;
+
+}
