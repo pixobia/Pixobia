@@ -33,7 +33,7 @@ Hacktoberfest 2022
 
 # Pixobia📸
 
-a mobile photography blog!  
+A Mobile Photography Blog!  
 
 - Join us, let's build a platform to showcase the beautiful photographs taken with smartphones.  
 
