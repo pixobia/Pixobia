@@ -311,6 +311,8 @@ footer {
   flex-direction: column;
   gap: 0.5rem;
   width: 300px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .link__container h5 {
@@ -361,10 +363,12 @@ footer {
 }
 
 .copyright {
-  font-size: 16px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 10px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 0.4px;
+  padding: 0 40px;
 }
 
 @media only screen and (max-width: 700px) {
