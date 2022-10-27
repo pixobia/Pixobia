@@ -92,6 +92,10 @@ git push origin my-new-branch
 
 <br>
 
+<h1 align="center">
+Most active contributors 🚀
+</h1>
+
 
 <a href="https://github.com/pixobia/pixobia/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=pixobia/pixobia" />
