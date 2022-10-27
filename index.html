@@ -17,6 +17,8 @@
     <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Finlandica:ital@1&family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap" rel="stylesheet">
+    <!-- fontawesome cdn link is added below -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             /* margin: 20px; */
@@ -141,13 +143,7 @@
 
     </span new>
     <hr><br>
-    <h4><em>Welcome</em> to the world of <strong>pixobia</strong>...</h4>
-
-    <hr>
-    <a href="https://linktr.ee/pixobia" target="_blank" class="neon-button">Linktr</a>
-    <a href="https://www.instagram.com/pixobia/"target="_blank"class="neon-button">Instagram</a>
-    <a href="https://unsplash.com/@pixobia" target="_blank" class="neon-button">Unsplash</a>
-    <hr>
+    <h4 style="font-size: 16px; font-weight: bolder;"><em>Welcome</em> to the world of <strong>pixobia</strong>...</h4><hr>
     <br>
 
     <!-- if image is not shown we use alt text -->
@@ -303,43 +299,58 @@
 
         <h2 style="text-align:center">My captures</h2>
         <a href="" class="btn">My captures</a>
-        <button class="btn">.</button>
+        <button class="btn" id="btn">.</button>
 
-
-
-
-
-
-
-        <!-- footer section-->
-        <footer>
-            <div class="footer-container">
-                <div class="left-section">
-                    <h3>SITE MENU</h3>
-                    <ul>
-                        <a href="#"><li>About Us</li></a>
-                        <a href="#"><li>Beginer Photography</li></a>
-                        <a href="#"><li>Photo Spots</li></a>
-                        <a href="#"><li>Search</li></a>
-                        <a href="#"><li>Forum</li></a>
-                    </ul>
-                </div>
-                <div class="middle-section">
-                    <p>© Pixobia</p> 
-                </div>
-                <div class="right-section">
-                    <h3>MORE</h3>
-                    <ul>
-                        <a href="#"><li>Contact Us</li></a>
-                        <a href="#"><li>Subscribe</li></a>
-                        <a href="#"><li>Workshops</li></a>
-                        <a href="#"><li>Support Us</li></a>
-                        <a href="#"><li>Submit Content</li></a>
-                    </ul>
+        
+    </div> <!-- close .container -->
+    <footer>
+            <div class="footer_section1">
+                <h1 class="footer__logo">P&icirc;x&#8709;b&iexcl;&atilde;</h1>
+                <div class="section1__buttoncontainer">
+                    <button>
+                        <img src="https://flagcdn.com/w40/in.png" alt="indian flag" style="width: 17px;">INDIA
+                    </button>
+                    <button>
+                        <i class="fa fa-globe" aria-hidden="true"></i>english
+                    </button>
                 </div>
             </div>
-        </footer>
-    </div> <!-- close .container -->
+
+            <div class="navigation_container">
+                <div class="link__container">
+                    <h5>site menu</h5>
+                    <a class="footer__link" href="#">about us</a>
+                    <a class="footer__link" href="#">beginer photography</a>
+                    <a class="footer__link" href="#">photo spots</a>
+                    <a class="footer__link" href="#">search</a>
+                    <a class="footer__link" href="#">forum</a>
+                </div>
+
+                <div class="link__container">
+                    <h5>more</h5>
+                    <a class="footer__link" href="#">more</a>
+                    <a class="footer__link" href="#">contact us</a>
+                    <a class="footer__link" href="#">subscribe</a>
+                    <a class="footer__link" href="#">support us</a>
+                    <a class="footer__link" href="#">submit content7</a>
+                </div>
+
+                <div class="link__container">
+                    <h5>social links</h5>
+                    <div class="social__links_container">
+                        <button><a href="https://www.instagram.com/pixobia/"><i class="fa-brands fa-instagram"></i> Instagram</a></button>
+                        <button><a href="https://linktr.ee/pixobia"><i class="fa-solid fa-link"></i>Linktr</a></button>
+                        <button><a href="https://unsplash.com/@pixobia"><i class="fa-brands fa-unsplash"></i>Unsplash</a></button>
+                        <button><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCpPPkksvhPvkrqFgTNfSfJhKGWfbJKzHRQpmVLtNgCvQLxGxWswrpMnHjvWVQBThmcTst"><i class="fa-solid fa-envelope"></i>Mail</a></button>
+                        <button><a href="https://twitter.com/RockzzSathvik"><i class="fa-brands fa-twitter"></i>Twitter</a></button>
+                        <button><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>Facebook</a></button>
+                        <button><a href="https://www.linkedin.com/in/sathvik2025/"><i class="fa-brands fa-linkedin"></i>Linked In</a></button>
+                    </div>
+                </div>
+            </div>
+
+    </footer>
+    <p class="copyright">By continuing past this page, you agree to our Terms of Service. All trademarks are properties of thier respective oweners. 2022 &#169; PIXOBIA. All rights reserved.</p>
 </body>
 
 </html>
