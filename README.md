@@ -98,7 +98,9 @@ git push origin my-new-branch
 <br>
 
 <h1 align="center">My Badges😍</h1>
-(https://holopin.io/@pixobia)
+[![@pixobia's Holopin board](https://holopin.io/api/user/board?user=pixobia)](https://holopin.io/@pixobia)
+
+---
 
 [![Sarthak's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=pixobia&&theme=xcode)](https://github.com/pixobia)
 
