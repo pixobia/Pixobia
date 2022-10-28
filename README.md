@@ -1,3 +1,4 @@
+[![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)](https://pixobia.io)
 <h1 align="center">BTW , Hi 👋, I'm Sathvik</h1>
 
 <h3 align="center">A passionate frontend developer from NIT Jamshedpur</h3>
@@ -98,6 +99,8 @@ git push origin my-new-branch
 
 <h1 align="center">My Badges😍</h1>
 (https://holopin.io/@pixobia)
+
+[![Sarthak's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=pixobia=xcode)](https://github.com/pixobia)
 
 <h1 align="center">
 Most active contributors 🚀
