@@ -93,7 +93,7 @@ git push origin my-new-branch
 <br>
 
 <h1 align="center">My Badges😍</h1>
-[![@pixobia's Holopin board](https://holopin.me/pixobia)](https://holopin.io/@pixobia)
+[![@pixobia's Holopin board](https://holopin.me/pixobia)]
 
 <h1 align="center">
 Most active contributors 🚀
