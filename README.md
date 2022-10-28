@@ -39,6 +39,8 @@ A Mobile Photography Blog!
 
 
 P.S. Star ⭐ and Share this repository, if you had fun!! 😍
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=pixobia&label=Profile%20views&color=0e75b6&style=flat" alt="pixobia" /> </p>
+<!-- Badges used from https://github.com/klaasnicolaas/ColoredBadges -->
 
 ---
 
