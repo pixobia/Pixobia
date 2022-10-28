@@ -97,11 +97,6 @@ git push origin my-new-branch
 
 <br>
 
-<h1 align="center">My Badges😍</h1>
-[![@pixobia's Holopin board](https://holopin.io/api/user/board?user=pixobia)](https://holopin.io/@pixobia)
-
----
-
 [![Sarthak's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=pixobia&&theme=xcode)](https://github.com/pixobia)
 
 
@@ -115,6 +110,8 @@ Most active contributors 🚀
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
+
+<h1 align="center">My Badges😍</h1>
 
 [![@pixobia's Holopin board](https://holopin.me/pixobia)](https://holopin.io/@pixobia)
 
