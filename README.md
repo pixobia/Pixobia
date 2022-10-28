@@ -100,7 +100,8 @@ git push origin my-new-branch
 <h1 align="center">My Badges😍</h1>
 (https://holopin.io/@pixobia)
 
-[![Sarthak's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=pixobia=xcode)](https://github.com/pixobia)
+[![Sarthak's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=pixobia&&theme=xcode)](https://github.com/pixobia)
+
 
 <h1 align="center">
 Most active contributors 🚀
