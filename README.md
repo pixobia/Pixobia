@@ -2,8 +2,8 @@
 
 <h3 align="center">A passionate frontend developer from NIT Jamshedpur</h3>
 
-(img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/116207...
-")
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/116207...
+"/>
 
 
 - 🔭 I’m currently working on **Frontend development**
