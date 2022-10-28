@@ -2,7 +2,9 @@
 
 <h3 align="center">A passionate frontend developer from NIT Jamshedpur</h3>
 
-<img  margin-bottom="14px" align="right" src="https://media0.giphy.com/media/uB86ZyWQsnFSGYe2sA/giphy.gif?cid=ecf05e47cdnzrp3zsci1zii1pr4kf86rhgkrdf8mfvujjwpr&rid=giphy.gif&ct=g" alt="">
+(img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/116207...
+")
+
 
 - 🔭 I’m currently working on **Frontend development**
 
