@@ -19,6 +19,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap" rel="stylesheet">
     <!-- fontawesome cdn link is added below -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <style>
         body {
             /* margin: 20px; */
@@ -133,83 +140,90 @@
         </nav>
     </header>
     <br>
-    <div class="polaroidnew">
-        <img src="sathvik.jpg" alt="5 Terre" style="width:100%">
-        <div class=" container">
-            <p>Rockzz</p>
-        </div>
-        <div id="topright"></div>
+    <div class="polaroidnew" id = "polaroidnew">
+        <img src="sathvik.jpg" alt="5 Terre" style="width:100%; border-radius: 50px;outline: none;border: none;">
     </div>
 
     </span new>
-    <hr><br>
-    <h4 style="font-size: 16px; font-weight: bolder;"><em>Welcome</em> to the world of <strong>pixobia</strong>...</h4><hr>
+    <br>
+    <h4 id = "heading-pixobia"><em>Welcome</em> to the world of <strong>pixobia</strong></h4>
     <br>
 
     <!-- if image is not shown we use alt text -->
     <!-- <img src="sathvik.jpg" alt="Error loading image"> -->
 
-    <strong style="border: 2px solid black; ; " id="strongnew">For any suggestions,like they need to be added in these
+    <div id="strongnew" class="d-flex justify-content-center bg-primary text-white">For any suggestions,like they need to be added in these
         website please
         mention
-        it...</strong><br><br>
-
-    <form action="sathvik.php" id="margin" class="say">
+        it...</div><br><br>
+    
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="form-container">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <form action="sathvik.php" id="margin">
         <div>
-
-            <label for="Name">Name:<input type="text" name="My name" id="Name"></label>
+            <label for="Name" class="input-label" id = "input-label">Name<br><input type="text" name="My name" placeholder="Name" class="form-input" id="Name" title="Name"></label>
         </div>
         <br>
         <div>
-            <label for="Date">Date: <input type="date" name="" id="Date"></label>
+            <label for="Date" class="input-label" id = "input-label1">Date<br><input type="date" name="Date" id="Date" class="form-input" title="Date"></label>
+        </div>
+        <br>
+        <div>
+            <label for="Role" class="input-label" id = "input-label2"> Role(or)passion <br><input type="text" name="My role" placeholder="Role" id="Role" class="form-input"></label>
 
         </div>
         <br>
         <div>
-            <label for="Role"> Role(or)passion: <input type="text" name="My role" id="Role"></label>
-
-        </div>
-        <br>
-        <div>
-            <label for="gender"> Gender: Male <input type="radio" name="mygender" id="gender"> Female <input
-                    type="radio" name="mygender" id="gender"> other <input type="radio" name="mygender"
+            <label for="gender" class="input-label" id = "input-label3"> Gender: <br>Male <input type="radio" name="mygender" id="gender"> Female <input
+                    type="radio" name="mygender" id="gender"> Other <input type="radio" name="mygender"
                     id="gender"></label>
 
         </div>
         <br>
         <div>
-            <label for="age">Are you 18 years old? <input type="checkbox" name="MY eligibility" checked
+            <label for="age" class="input-label" id = "input-label4">Are you 18 years old? <input type="checkbox" name="MY eligibility" checked
                     id="age"></label>
         </div>
         <br>
-        <label for="photography">Photography types intrested in:</label>
-        <select name="Photography Types" id="photography">
-            <option name="macro">macro</option>
-            <option value="emotions">emotions</option>
-            <option value="landscape">landscape</option>
-        </select><br>
+        <label for="photography" class="input-label" id = "input-label5">Photography types interested in<br>
+        <select name="Photography Types" id="photography" class="form-input">
+            <option name="macro" class="form-input">macro</option>
+            <option value="emotions" class="form-input">emotions</option>
+            <option value="landscape" class="form-input">landscape</option>
+        </select></label><br>
         <br>
         <div>
-            <label for="Number">Number: <input type="number" name="My phone number" id="Number"></label>
+            <label for="Number" class="input-label" id = "input-label6">Number<br><input type="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12" name="My phone number" id="Number" class="form-input"></label>
         </div>
         <br>
         <div>
 
-            <label for="mail">Email: <input type="email" name="My mail" id="mail"></label>
+            <label for="mail" class="input-label" id = "input-label7">Email <br><input type="email" name="My mail" id="mail" class="form-input"></label>
         </div>
         <br>
         <div>
-            <label for="comment"> Comment: <textarea name="Mytext" cols="10" rows="1" id="comment"></textarea></label>
+            <label for="comment" class="input-label" id = "input-label8"> Comment<br><textarea name="Mytext" cols="10" rows="1" id="comment" class="form-input"></textarea></label>
         </div>
         <br>
         <div>
-            <span><input type="submit" value="Submit Now">
-                <input type="reset" value="Reset Now"></span>
+            <span><input type="reset" value="Reset Now" class="reset-button" id = "reset-button">
+                <input type="submit" value="Submit Now" class="submit-button bg-primary"></span>
         </div>
-
-
     </form>
+
     <br>
+
+    <div class="dark-switch" onclick="darkToggleSwitch()" title="Change Theme" id = "dark-toggle">
+        <span class="material-symbols-outlined dark-button" id = "darkSpan">
+            light_mode
+        </span>
+    </div>
     <!-- Emmet -->
     <!-- . is for class and # is for id -->
     <span class="redBG"></span>
@@ -218,7 +232,7 @@
     <div class="redBG"></div>
 
 
-    <h3 id="thirdpara" style="font-size:150%;"><b>My Photography:</b></h3>
+    <h3 id="thirdpara" style="font-size:150%; text-align: center;"><b>My Photography:</b></h3>
     <!-- <hr> -->
 
     <!-- polaroid -->
@@ -239,11 +253,11 @@
     <div class="container" style="font-size:150%;"><b>Photo Gallery</b></div>
     <br>
     <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="https://unsplash.com/@pixobia">
+        <div class="gallery" id = "gallery">
+            <a target="_blank" href="https://unsplash.com/@pixobia" rel="noopener">
                 <img src="https://images.unsplash.com/photo-1660753397402-272d011ec6aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="Eroor loading" width="600" height="400">
             </a>
-            <div class="desc">"We, the humans are like this green grass.
+            <div class="desc" id = "desc">"We, the humans are like this green grass.
                 When drenched with love like water is looking on it as glass.
                 We glitter in the sunshine in the days.
                 And even in the nights due to moonlight rays..."❤️❤️❤️
@@ -254,22 +268,22 @@
 
 
     <div class="responsive">
-        <div class="gallery">
+        <div class="gallery" id = "gallery1">
             <a target="_blank" href="https://unsplash.com/@pixobia">
                 <img src="https://images.unsplash.com/photo-1656834180126-3c44b50c283a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Eroor loading" width="800" height="1000">
             </a>
-            <div class="desc">"Architecture is a virtual art and
+            <div class="desc" id = "desc1">"Architecture is a virtual art and
                 The buldings speak for themselves…"
             </div>
         </div>
     </div>
 
     <div class="responsive">
-        <div class="gallery">
+        <div class="gallery" id = "gallery2">
             <a target="_blank" href="https://unsplash.com/@pixobia">
                 <img src="https://images.unsplash.com/photo-1516585427167-9f4af9627e6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBvb3IlMjBwZW9wbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Eroor loading" width="600" height="400">
             </a>
-            <div class="desc">"When you photograph people in color,
+            <div class="desc" id = "desc2">"When you photograph people in color,
                 You photograph their clothes.But when you
                 Photograph people in Black and White,you photograph their souuls…"
             </div>
@@ -277,11 +291,11 @@
     </div>
 
     <div class="responsive">
-        <div class="gallery">
+        <div class="gallery" id = "gallery3">
             <a target="_blank" href="https://unsplash.com/@pixobia">
                 <img src="https://images.unsplash.com/photo-1660753397345-81bbfee72c4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="Eroor loading" width="600" height="400">
             </a>
-            <div class="desc">" Beauty perishes in life,but it
+            <div class="desc" id = "desc3">" Beauty perishes in life,but it
                 Is immortal in art…
                 "
             </div>
@@ -308,7 +322,7 @@
     <footer class="footer">
         <div class="containerr">
             <footer class="row footer-row">
-                <div class="footer-col">
+                <div class="col footer-col">
                     <h4>Site Menu</h4>
                     <ul>
                         <li><a href="aboutus.html">About Us</a></li>
@@ -318,7 +332,7 @@
                         
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="col footer-col">
                     <h4>More</h4>
                     <ul>
                         <li>
@@ -332,7 +346,7 @@
                         <li><a href="#">More</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="col footer-col">
                     <h4>About Us</h4>
                     <ul>
                         <li><a href="#">Photos</a></li>
@@ -340,7 +354,7 @@
                         <li><a href="#">Hacktober</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="col footer-col">
                     <h4>Contact us</h4>
                     <div class="social-links">
 
@@ -353,6 +367,9 @@
                                 class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
+            </footer>
+        </div>
+    </footer>
            
 </body>
 
