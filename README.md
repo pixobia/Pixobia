@@ -97,7 +97,7 @@ git push origin my-new-branch
 
 <br>
 
-[![Sarthak's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=pixobia&&theme=xcode)](https://github.com/pixobia)
+
 
 
 <h1 align="center">
