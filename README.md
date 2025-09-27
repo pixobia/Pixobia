@@ -1,21 +1,18 @@
 [![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)](https://pixobia.io)
-<h1 align="center">BTW , Hi 👋, I'm Sathvik</h1>
+<h1 align="center">BTW , Hi 👋, I'm Sathvik Khajjayam</h1>
 
-<h3 align="center">A passionate frontend developer from NIT Jamshedpur</h3>
+<h3 align="center">A passionate full-stack developer from NIT Jamshedpur</h3>
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 
+- 🔭 I’m currently working as a Software Development Engineer Intern at Zluri, focusing on building and enhancing frontend features for their SaaS platform.
 
-- 🔭 I’m currently working on **Frontend development**
+- 🌱 I’m expanding my skills in full-stack development to build full-stack applications.
 
-- 🌱 I’m currently learning **backend development**
+- 👯 I’m looking to collaborate on innovative projects and hackathons.
 
-- 👯 I’m looking to collaborate for **Hackthons**
-
-- 💬 Ask me about **HtML,CSS,JAvascript,React.js,react native.**
-
-- 📫 How to reach me **khajjayamsathvik@gmail.com**
+- 📫 How to reach me: sathvikkhajjayam@gmail.com
 
 <h3 align="left">Connect with me:</h3>
 
