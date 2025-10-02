@@ -1,4 +1,4 @@
-<h1 align="center">BTW , Hi 👋, I'm Sathvik Khajjayam</h1>
+<h1 align="center"> Hi 👋, I'm Sathvik Khajjayam</h1>
 
 <h3 align="center">A passionate full-stack developer from NIT Jamshedpur</h3>
 
