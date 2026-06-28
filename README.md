@@ -5,7 +5,7 @@
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 
-- 🔭 I’m currently working as a Software Development Engineer Intern at Zluri, focusing on building and enhancing frontend features for their SaaS platform.
+- 🔭 I’m currently working as a Software Development Engineer at Zluri, focusing on building and enhancing new features for their SaaS platform.
 
 - 🌱 I’m expanding my skills in full-stack development to build full-stack applications.
 
